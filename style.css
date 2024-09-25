@@ -150,7 +150,6 @@ main {
     transition: all 0.3s;
     position: absolute;
     bottom: 0px;
-    width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -166,11 +165,8 @@ main {
     font-size: 1.1em;
 }
 .pages:hover {
-    transform: scale(1.1, 1.1);
+    transform: rotate(1deg) scale(1.2, 1.2);
 }
-/* .pages:hover .white_effect{
-    height: 100%;
-} */
 
 
 
